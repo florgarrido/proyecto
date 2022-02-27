@@ -154,6 +154,25 @@ justify-content : center;
 align-items : center;
 }
 
+/*Blog*/
+
+.container{
+  height: 200px;
+}
+
+#hijoUno{
+  background-color: rgb(0, 255, 255);
+}
+
+#hijoDos{
+  background-color:rgb(43, 183, 226);
+}
+
+
+#hijoTres{
+  background-color:rgb(42, 126, 165);
+}
+
 /*Contacto*/
 form {
     /* Centrar el formulario en la página */

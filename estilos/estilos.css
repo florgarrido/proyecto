@@ -3,11 +3,6 @@
     padding:0;
 }
 
-.transformacion{
-  transform: rotate(45deg);
-}
-
-
 h1{
     color:#3090cf;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,8 +12,7 @@ h1{
 }
 
 nav{
-  background: rgb(48,144,207);
-background: linear-gradient(90deg, rgba(48,144,207,1) 0%, rgba(1,199,190,1) 47%, rgba(48,144,207,1) 81%);
+  background: linear-gradient(90deg, rgba(48,144,207,1) 0%, rgba(1,199,190,1) 47%, rgba(48,144,207,1) 81%);
     height: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -59,10 +53,6 @@ p{
     margin-right: 20px;
 }
 
-p {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
 
 @keyframes slidein {
   from {
@@ -86,10 +76,6 @@ p {
     grid-area: a1;
 }
 
-.texto{
-    float:right;
-    width: 80%;
-}
 
 .Servicios{
     display:flex;
@@ -276,6 +262,9 @@ footer nav ul a{
 /*Responsive*/
 /*SM*/
 @media only screen and (max-width: 600px){
+
+
+
   header{
     height: auto;
 }
@@ -312,6 +301,7 @@ nav{
 }
 /*MD*/
 @media only screen and ( min-width:600px){
+
 
   #grilla{
       grid-template-columns: 50% 50% ;

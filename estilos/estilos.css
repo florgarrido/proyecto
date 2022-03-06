@@ -7,8 +7,7 @@ h1{
     color:#3090cf;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    float:right;
-    margin-right: 30px;
+    display:inline-block;
 }
 
 nav{
@@ -35,13 +34,13 @@ header nav ul{
     justify-content: space-around;
 }
 
+
 h2{
     color:#3090cf;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    margin-top:10px;
-    margin-bottom: 10px;
     margin-left: 20px;
+    display:inline-block;
 }
 
 
@@ -69,10 +68,8 @@ p{
 
 .SobreMi{
     background-color: #bde7ff;
-    transform: rotate(360deg);
-    margin-left: 10px;
-    margin-right:10px ;
     display:flex;
+    align-items: center;
     grid-area: a1;
 }
 
@@ -103,9 +100,9 @@ p{
 
 #grilla-index{
   display:grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 33% 33% 33%;
   grid-template-rows:200px 400px ;
-  grid-template-areas: "a1 a1 a1    "
+  grid-template-areas: "a1 a1 a1 "
                        "a2 a3 a4";
   justify-items: center;
   align-items: center;
@@ -140,26 +137,12 @@ justify-content : center;
 align-items : center;
 }
 
-/*Blog*/
-
-.container{
-  height: 200px;
-}
-
-#hijoUno{
-  background-color: rgb(0, 255, 255);
-}
-
-#hijoDos{
-  background-color:rgb(43, 183, 226);
-}
-
-
-#hijoTres{
-  background-color:rgb(42, 126, 165);
-}
 
 /*Contacto*/
+
+.contacto{
+  display:block;
+}
 form {
     /* Centrar el formulario en la página */
     margin: 0 auto;
@@ -263,6 +246,13 @@ footer nav ul a{
 /*SM*/
 @media only screen and (max-width: 600px){
 
+.SobreMi{
+  display:inline;
+}
+
+p{
+  font-size: 12px;
+}
 
 
   header{
@@ -270,12 +260,15 @@ footer nav ul a{
 }
 
 nav{
-  height:auto;
+  display:flex;
 }
 
 .redesSociales{
-  height:auto;
+  display:flex;
+  text-align: center;
+  justify-content: center;
 }
+
 
   ul{
     flex-direction: column;

@@ -1,0 +1,182 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-color:#f4efff;
+}
+
+h1{
+	color:#853fff;
+	margin-top: 90px;
+	font-size: 40pt;
+	font-weight: bold;
+
+}
+
+.encabezado{
+	height: 100px;
+}
+
+#cabecera{
+	width:960px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#botonera{
+	height: 100px;
+	float:right;
+	margin-top: 100px;
+}
+
+ul li{
+	display:inline;
+}
+
+ul.encabezado li a{
+	list-style-type: none;
+	display: inline-block;
+	width: 70px;
+	height: 50px;
+	background-color: #79ccff;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	color:#a454ff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	border-color: #FF4000;
+	border-radius: 50px;
+	font-size: 10pt;
+}
+
+ul.encabezado li a:hover{
+	background-color: #a454ff;
+	color:#79ccff;
+	-webkit-box-shadow:4px 4px 5px #c6c6c6;
+	-moz-box-shadow:4px 4px 5px #c6c6c6;
+	-o-box-shadow:4px 4px 5px #c6c6c6;
+}
+
+.breadcrumb{
+	font-size: 12px;
+}
+
+.slider{
+	height: 400px;
+	margin-top:auto;
+}
+
+.texto_central{
+	height: 300px;
+	margin-top: 30px;
+
+}
+
+.article1{
+	margin-top:150px;
+	height: auto;
+}
+
+.article2{
+	margin-top:150px;
+	height: auto;
+}
+
+h3{
+	color:#853fff;
+	font-size: 20pt;
+}
+
+p{
+	font-size: 14px;
+	color:#8e8e8e;
+}
+
+.blockquote-footer{
+  color:#bcb8b8;
+}
+
+th{
+	font-size: 15px;
+	color:#4f4e4e;
+}
+
+tr{
+	font-size: 13px;
+	color:#898989;
+}
+
+.imagen_central{
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #efeded;
+}
+
+.contenedor_imagen{
+	margin-right:auto;
+	margin-left:auto;
+	width: 800px;
+}
+
+.pie_de_pagina{
+	margin-top:90px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 10px;
+	color:#8c8c8c;
+}
+
+label{
+	font-size: 16px;
+	color:#584a6d;
+}
+
+button{
+	width: 70px;
+	height: 40px;
+	background-color: #79ccff;;
+	color:#a454ff;
+	text-align: center;
+	font-weight: bold;
+	border-color: #FF4000;
+	border-radius: 50px;
+	font-size: 12pt;
+}
+
+.articulos{
+	height:auto;
+	margin-top: 30px;
+}
+
+h4{
+	 font-size: 15px;
+	 color:#3c3c3d;
+}
+
+.mini_texto{
+ font-size: 11px;
+ color:#3c3c3d;
+}
+
+.columnas_secundarias{
+	height: 150px;
+}
+
+.frase{
+	font-size: 30px;
+}
+
+h6{
+	font-weight: bold;
+	color:#4b2c6d;
+}
+
+.texto-integrantes{
+	color:#5e5e5e;
+}
